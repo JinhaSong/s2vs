@@ -1,5 +1,5 @@
-from model.similarity_network import SimilarityNetwork
-from model.feature_extractor import FeatureExtractor
+from model.vcd.s2vs.model.similarity_network import SimilarityNetwork
+from model.vcd.s2vs.model.feature_extractor import FeatureExtractor
 
 dependencies = ["torch", "torchvision", "einops"]
 

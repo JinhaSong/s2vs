@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from einops import rearrange, repeat
-from model.constraints import L2Constrain
+from model.vcd.s2vs.model.constraints import L2Constrain
 
 
 class VideoNormalizer(nn.Module):

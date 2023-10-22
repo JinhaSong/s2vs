@@ -2,8 +2,8 @@ import enum
 import torch
 import torch.nn as nn
 
-from model import extractors
-from model.layers import PCALayer, VideoNormalizer
+from model.vcd.s2vs.model import extractors
+from model.vcd.s2vs.model.layers import PCALayer, VideoNormalizer
 
 
 class FeatureExtractor(enum.Enum):
